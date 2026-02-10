@@ -169,7 +169,7 @@ function Collections() {
         </div>
       </div>
       <div className="lg:pl-[20%] md:py-[10px] ">
-        <div className=" md:w-[80vw] w-[100vw]    flex  justify-between flex-col lg:flex-row lg:px-[50px] ml-[100px] mt-[20px] md:mt-0">
+        <div className=" md:w-[80vw] w-[100vw]    flex  justify-between flex-col lg:flex-row lg:px-[50px] ml-[100px] mt-[25px] md:mt-0">
           <Title text1={"ALL"} text2={"COLLECTIONS"} />
 
           <select

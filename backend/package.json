@@ -13,7 +13,7 @@
   "license": "ISC",
   "description": "Backend services for a Voice-Activated AI E-commerce platform using Node.js and AI features",
   "dependencies": {
-    "axios": "^1.13.4",
+    "axios": "^1.13.5",
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.9.0",
     "cookie-parser": "^1.4.7",
