@@ -15,7 +15,7 @@ import { shopDataContext } from "../context/ShopContext";
 import { toast } from "react-toastify";
 
 function Nav() {
-  let { userData, setUserData } = useContext(userDataContext);
+  let { getCurrentUser, userData } = useContext(userDataContext);
   let { showSearch, setShowSearch, search, setSearch, getCartCount } =
     useContext(shopDataContext);
   let [showProfile, setShowProfile] = useState(false);
@@ -28,7 +28,7 @@ function Nav() {
       });
       toast.success("Logout successful!");
       console.log(result.data);
-      setUserData(null);
+      getCurrentUser();
       navigate("/login");
     } catch (error) {
       console.log(error);
