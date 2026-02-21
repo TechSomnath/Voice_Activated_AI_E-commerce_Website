@@ -2,7 +2,7 @@ import React, { createContext } from "react";
 
 export const authDataContext = createContext();
 function AuthContext({ children }) {
-  let serverUrl = "http://localhost:8000";
+  let serverUrl = "https://voice-activated-ai-e-commerce-website.onrender.com";
 
   let value = {
     serverUrl,
