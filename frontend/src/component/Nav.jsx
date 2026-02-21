@@ -16,8 +16,8 @@ import { toast } from "react-toastify";
 
 function Nav() {
   let { getCurrentUser, userData } = useContext(userDataContext);
-  let { showSearch, setShowSearch, search, setSearch, getCartCount } =
-    useContext(shopDataContext);
+  let { serverUrl } = useContext(authDataContext);
+  let { showSearch, setShowSearch, search, setSearch, getCartCount } = useContext(shopDataContext);
   let [showProfile, setShowProfile] = useState(false);
   let navigate = useNavigate();
 
