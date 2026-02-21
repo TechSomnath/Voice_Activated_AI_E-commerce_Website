@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://voice-activated-ai-e-commerce-website-1.onrender.com" , "http://localhost:5174"],
+ origin:["https://voice-activated-ai-e-commerce-website-1.onrender.com" , "https://voice-activated-ai-e-commerce-website-2.onrender.com"],
  credentials:true
 }))
 
